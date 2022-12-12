@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 40px;
+    width: 30%;
+    background-color: rgb(106, 103, 103);
+    margin: 0px auto;
+}
+.box:nth-child(1){
+    color: white;
+    height: 40px;
+    width: 50%;
+    float: left;  
+}
+.box:nth-child(2) {
+    height: 40px;
+    width: 50%;
+    float: right;
+}
+.box:nth-child(1) i{
+    float: right;
+    padding: 0px 10px;
+    font-size: 40px;
+}
+.box:nth-child(2) h1{
+    float: left;
+    color: white;
+}
+.login{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 3px 6px 14px 1px rgba(0,0,0,0.72);
+    margin: 0px auto;
+}
+.login h3{
+    text-align: center;
+    padding: 10px;
+   
+}
+.login input {
+    padding: 10px ;
+    width: 70%;
+    margin: 0px 10px;
+    border-radius:6px ;
+    border: 1px solid gray;
+    outline: none;
+    
+}
+.forgot input{
+    width: 20px;
+}
+.forgot a{
+    text-decoration: none;
+}
+.forgot button {
+    background-color: #0877e6;
+    color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    border: none;
+    width: 70%;
+    border-radius: 5px ;
+
+  }
+  .forgot button:hover{
+      background-color: #0b4783;
+      transition: 0.4s;
+  }
+  .Need{
+      text-align: center;
+  }
+  .Need a{
+      text-decoration: none;
+  }
+  .Register button{
+      padding: 10px ;
+      width: 70%;
+      margin: 0px 10px;
+  }
+
